@@ -7,11 +7,10 @@
 
 
     <TextView
-
+    android:id="@+id/question_text_view"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="24dp"
-    android:text="@string/question_text"
     />
 
     <LinearLayout
@@ -31,13 +30,19 @@
             android:layout_height="wrap_content"
             android:text="@string/False_button"/>
 
-        <Button
-            android:id="@+id/Next_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Next_button"/>
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/Next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Next_button"/>
+
+    <Button
+        android:id="@+id/Previous_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Previous_button"/>
 
 
 </LinearLayout>

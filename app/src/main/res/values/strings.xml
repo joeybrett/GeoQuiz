@@ -4,9 +4,14 @@
     <string name="question_text">New York is the largest city in the USA.</string>
     <string name="True_button">TRUE</string>
     <string name="False_button">FALSE</string>
-    <string name="Next_button">NEXT</string>
 
+    <string name="Previous_button">PREVIOUS</string>
+    <string name="Next_button">NEXT</string>
     <string name="Correct_toast">Correct !!</string>
     <string name="Incorrect_toast">Incorrect !!</string>
+
+    <string name="question_1">new york is the largest city</string>
+    <string name="question_2">sun rises in the west</string>
+    <string name="question_3">pacific ocean is larger than atlantic ocean</string>
 
 </resources>
